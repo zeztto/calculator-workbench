@@ -1,0 +1,45 @@
+{
+  "name": "calculator-workbench",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-scroll-area": "1.2.3",
+    "@radix-ui/react-slot": "1.1.2",
+    "@radix-ui/react-tabs": "1.1.3",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.487.0",
+    "mathjs": "15.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "3.2.0",
+    "tw-animate-css": "1.3.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "4.7.0",
+    "jsdom": "^27.4.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "6.4.5",
+    "vitest": "4.1.12"
+  },
+  "description": "\ud55c\uad6d\uc5b4 \ub2e4\uae30\ub2a5 \uacc4\uc0b0\uae30\uc640 \uc0bc\uac01\ud568\uc218 \uac01\ub3c4 \ubcc0\ud658 \ub85c\uc9c1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
